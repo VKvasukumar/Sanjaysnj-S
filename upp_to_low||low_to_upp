@@ -1,0 +1,12 @@
+a=input()
+b=ord(a)
+if(b>=65 and b<=90):
+    c=b+32
+    d=chr(c)
+    print("Lowercase to uppercase: ",d)
+elif(b>=97 and b<=122):
+    e=b-32
+    f=chr(e)
+    print("Uppercase to Lowercase: ",e)
+else: 
+    print("Invalid")
